@@ -1,0 +1,25 @@
+<html>
+   <title>
+   正在注册成为一只猪猪
+   </title>
+   
+   <body>
+   
+   <center><td>猪猪名：</td><input type = "text" name = "username"></center>
+   <center><td>密码：</td><input type = "password" name = "pass1" value = "pass1"></center>
+   <center><td>请再次输入密码：</td><input type = "password" name = "pass2" value="pass2"></center>
+   <center><button onclick = "f(pass1.value,pass2.value)">确认注册</button></center>
+   
+   <script>
+   function f(a,b){
+      if(a == b){
+	      alert("注册成功！");
+	  }
+	  else{
+	     alert("注册失败！请输入相同的密码！");
+	  }
+   }
+   </script>
+   
+   </body>
+</html>
